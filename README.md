@@ -5,7 +5,9 @@ After discovering evidence of acadmic dishonesty in regards to the math and read
 ## Purpose of the Analysis
 This analysis is designed to help us practice our use of pandas in the Python programming language.  We also had the opportunity to demonstrate several new functions like groupby(), loc, append, sort_values, etc.
 ## Analysis of Metrics
-  * The district summary
+ ![]"https://github.com/WIPartain/PyCitySchools/blob/main/Resources/Module4DistSumNew.png"
+ ![]"https://github.com/WIPartain/PyCitySchools/blob/main/Resources/schoolsnew.png"
+ * The district summary
       After removing the Thomas High School 9th grade scores in question, we were able to determine that there was a very small impact on the math, reading, and overall passing percent of the district. All 3 categories dropped by roughly 1%.
   * The school summary
       The school summary dataframe reveals the passing math percentage and passing reading percentage both dropped dramatically for Thomas High School.  Reading dropped from 97.1% to 69.7% while math dropped from 93.3% down to 66.9%.
@@ -16,8 +18,8 @@ This analysis is designed to help us practice our use of pandas in the Python pr
   * The average reading score for each grade level from each school
       As with the math scores, the average reading scores for the other grades at Thomas High School were not affected nor were the other schools in the district.
   * The scores by school spending per student, by school size, and by school type
-      When reviewing the School Spending summary, this data change did not impact the spending ranges for either the average math scores or average reading scores. However, this data change did impact the spending ranges for passing percentages. According to the summary above, there was a 6% decrease in % passing math, a 7% decrease in % passing reading, and a 6% decrease in % overall passing in the $630-644 spending range.
-      When reviewing the School Size summary, removing the ninth grade scores did not affect the average math and reading scores, but it did affect the passing percentages for medium-sized schools (1,000-2,000). In this category, % passing math, % passing reading, and % overall passing dropped 6% each. Before the data change, the School Size summary showed that medium-sized school had a high performance (91% overall passing) compared to small (90% overall passing) and large schools (58% overall passing). Given the data change, medium size school are the second in performance (85% overall passing).
-      In reviewing the last summary on School Types, this data change also affected the passing percentages that compared charter and district schools. Fortunately, it did not affect the average scores for these two school types. Removing the scores resulted in a reduction in charter school's passing percentages. Before the data change, charter schools had very high passing percentages: 94% passing math, 97% passing reading, 90% overall passing. After the data change, charter schools now have a 90% passing math, 93% passing reading, 87% overall passing. On the plus side, these rates are still far superior when compared to district schools.
+    * When reviewing the School Spending summary, the omission of the THS ninth grade scores did not appear to cause any major changes in the data frame. 
+    * In reference to spending by school size, removing the ninth grade scores did not affect the percentage passing for math, reading, and overall in differently sized schools.
+    * In School Types summary dataframe was also not affected by the omission of the THS ninth grade test scores.
 ## Summary
-We were able to isolate the instances of academic dishonesty at Thomas High School, and they did in fact cause discrepencies in the school's and the district's overall passing rate for math and reading. This in turn affected the spending, size, and type summaries connected to the passing percentage for math and reading for Thomas High School.
+We were able to isolate the instances of academic dishonesty at Thomas High School, and they did in fact cause discrepencies in the school's and the district's overall passing rate for math and reading. This in turn should have affected the spending, size, and type summaries connected to the passing percentage for math and reading for Thomas High School however my algorithm did not return any changes. 
