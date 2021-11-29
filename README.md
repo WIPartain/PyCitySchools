@@ -5,8 +5,8 @@ After discovering evidence of acadmic dishonesty in regards to the math and read
 ## Purpose of the Analysis
 This analysis is designed to help us practice our use of pandas in the Python programming language.  We also had the opportunity to demonstrate several new functions like groupby(), loc, append, sort_values, etc.
 ## Analysis of Metrics
- ![]"https://github.com/WIPartain/PyCitySchools/blob/main/Resources/Module4DistSumNew.png"
- ![]"https://github.com/WIPartain/PyCitySchools/blob/main/Resources/schoolsnew.png"
+ ![](https://github.com/WIPartain/PyCitySchools/blob/main/Resources/Module4DistSumNew.png)
+ ![][https://github.com/WIPartain/PyCitySchools/blob/main/Resources/schoolsnew.png)
  * The district summary
       After removing the Thomas High School 9th grade scores in question, we were able to determine that there was a very small impact on the math, reading, and overall passing percent of the district. All 3 categories dropped by roughly 1%.
   * The school summary
